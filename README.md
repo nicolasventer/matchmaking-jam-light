@@ -2,7 +2,9 @@
 
 Ce sujet de programmation est disponible sous licence [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
 
-Vous êtes libres de le copier, le modifier ou le partager dans les mêmes conditions, y compris pour un usage commercial.
+Vous êtes libres de le copier, le modifier ou le partager dans les mêmes conditions, y compris pour un usage commercial,
+sous réserve d'attribution à l'auteur original (vous pouvez mentionner "Christophe MICHEL" ou mettre un lien vers ce
+dépôt).
 
 ## Underwatch, un FPS médiéval par équipe
 
