@@ -1,5 +1,9 @@
 # Jam de code Matchmaking - 6 juin 2019 - Arolla
 
+Ce sujet de programmation est disponible sous licence [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
+
+Vous êtes libres de le copier, le modifier ou le partager dans les mêmes conditions, y compris pour un usage commercial.
+
 ## Underwatch, un FPS médiéval par équipe
 
 Vous faites partie de l'équipe de développement d'Underwatch, un FPS par équipe en 5vs5. Comme la plupart des jeux 
