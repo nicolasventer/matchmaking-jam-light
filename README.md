@@ -54,3 +54,13 @@ l'immédiat, vous décidez donc d'aider les designers sur le système que vous v
 
 Quels sont les problèmes potentiels de ce type de système pour un jeu comme **Underwatch** ? Comment les 
 aborderiez-vous ?
+
+## Contraintes supplémentaires
+
+Une fois ces étapes déroulées, vous pouvez pousser l'exercice plus loin avec 
+[ces contraintes supplémentaires](extras/contraintes.md).
+
+## Commentaires
+
+Une fois les implémentations terminées, vous pouvez également lire les 
+[commentaires faits pendant la jam](extras/commentaires.md).
