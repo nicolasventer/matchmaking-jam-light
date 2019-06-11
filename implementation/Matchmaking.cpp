@@ -39,7 +39,7 @@ struct Player
 {
 public:
 	Player() {} // do not use
-	Player(string playerString)
+	explicit Player(const string& playerString)
 	{
 		vector<string> splitPlayerString = split(playerString, ';');
 		name = splitPlayerString[NAME_INDEX];
@@ -197,7 +197,7 @@ class GameList
 {
 public:
 	GameList() {} // do not use
-	GameList(int mapToUse) : mapToUse(mapToUse) {}
+	explicit GameList(int mapToUse) : mapToUse(mapToUse) {}
 	void AddPlayer(Player* player, vector<Game>& availaibleGameList)
 	{
 		Game gameToAdd = Game(mapToUse, player);
@@ -215,7 +215,6 @@ public:
 	}
 	void Clean()
 	{
-		vector<int> indexToRemoveList;
 		for (int i = 0; i < (int)gameList.size(); i++)
 		{
 			gameList[i].Clean();
@@ -242,7 +241,7 @@ public:
 	Queue()
 	{
 		for (int i = 0; i < MAP_COUNT; i++)
-			gameListArray[i] = i;
+			gameListArray[i] = GameList(i);
 	}
 	~Queue()
 	{
